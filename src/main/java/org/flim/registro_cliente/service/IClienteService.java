@@ -1,0 +1,12 @@
+package org.flim.registro_cliente.service;
+
+import org.flim.registro_cliente.entity.Cliente;
+
+import java.util.List;
+
+public interface IClienteService {
+    public List<Cliente> listarClientes();
+    public Cliente buscarClienteporId(Integer codigo);
+    public void guardarCliente(Cliente lciente);
+    public void eliminarCliente(Cliente cliente);
+}
