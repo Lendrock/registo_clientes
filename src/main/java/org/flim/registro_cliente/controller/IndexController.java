@@ -32,7 +32,6 @@ public class IndexController {
     @PostConstruct
     public void init(){
         cargarDatos();
-        agregarCliente();
     }
 
     public void cargarDatos(){
